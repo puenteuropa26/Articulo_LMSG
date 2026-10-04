@@ -1,0 +1,106 @@
+body {
+
+    background-color: white; 
+    font-family: 'Times New Roman'; 
+    color: rgb(20,20,20);
+    margin: 0;
+    padding: 20px;
+}
+
+.pagina {
+    background-color: white;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40px;
+}
+
+.encabezado {
+    text-align: center;
+    border-bottom: 3px double rgb(20,20,20);
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+}
+
+.encabezado h1 {
+    font-size: 32px;
+    line-height: 1.2;
+}
+
+.encabezado img {
+    width: 100%;
+    max-height: 400px;
+    margin-top: 15px;
+}
+
+.informacion-personal {
+    display: flex;
+    justify-content: space-between;
+    font-family: Arial;
+    font-size: 14px;
+    color: rgb(33,33,33);
+    margin-top: 10px;
+}
+
+.texto {
+    line-height: 1.6; 
+    text-align: justify;
+    margin-bottom: 25px;
+}
+
+.texto h2 {
+    font-family: Arial;
+    color: rgb(13,13,13);
+    border-bottom: 1px solid rgb(80,80,80);
+    padding-bottom: 5px;
+    margin-top: 30px;
+}
+
+.imagenes-texto {
+    display: flex;
+    gap: 20px;
+    margin: 20px 0;
+}
+
+.imagenes-texto img {
+    width: 50%;
+    height: auto;
+}
+
+h2 {
+    font-family: Arial;
+}
+
+.herramientas {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.web {
+    background-color: rgb(249,249,249);
+    padding: 15px;
+    border: 1px solid rgb(238,238,238);
+    width: 31%;
+    font-family: Arial;
+    font-size: 14px;
+}
+
+.web h3 {
+    font-size: 16px;
+    text-align: center;
+    margin-top: 0;
+}
+
+.web img {
+    width: 100%;
+    height: 120px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+}
+
+.web a {
+    color: rgb(0,102,204);
+    text-decoration: none;
+    font-weight: bold;
+}
